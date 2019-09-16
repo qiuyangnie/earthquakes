@@ -22,5 +22,11 @@ The earthquake data contains geographic references so a good visualisation would
 
 Using a geo-graphic (equi-rectangular) projection of the earth, which allows to map longitude and latitude to Cartesian co-ordinates without needing a complex transform function as the map projection already has accounted for the distortion introduced when going from a spherical to a flat surface (i.e. we distort the map not the transform).<br>
 
+<h3>Iterative Implementation</h3>
+<h4>Working with JSON Data in Processing</h4>
+From a programming perspective, a better or more readable and maintainable way to parse the data is to refer to the required parts by name and not by position like the first implementation. Therefore, working with data in JSON form allows a key to be associated with a data item. Once the key is known, the data can be accessed regardless of its position. The US Geological Survey also publish the data in JSON format, such as GeoJSON object.
+<img src="img/GeoJSON.jpg" width="800px" alt="GeoJSON object">
+
 <h3>Future Development</h3>
 Usually there is a cleaning step, to ensure missing and incorrect data will not cause problems for the application. and this data cleaning step can be an important element of all data visualisation (or analysis) tasks and should not be underestimated. In this prototype the makeSplitFriendly() function addresses some of this data cleaning activity, but in general it is a large part of any data analysis work.
+

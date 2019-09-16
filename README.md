@@ -8,7 +8,7 @@ The process for developing a visualisation, has seven stages from acquiring data
 
 <h3>The Data:</h3>
 The data is from the <a href="https://earthquake.usgs.gov/earthquakes/">US Geological Survey websites</a> about active earthquakes around the world. The data is available in a variety of formats. The example of a partial extract from the CSV formatted version is:
-<img src="img/csv_extract.jpg" width="600px" alt="A example of partial extract from the CSV formatted version">
+<img src="img/csv_extract.jpg" width="700px" alt="A example of partial extract from the CSV formatted version">
 Then parsing the relevant parts of each record to present the data in a visual form. For example, the parsing process requires to read each line as a String, split this String into pieces and convert each piece to the correct type of value. Then using these values to present the data in an appropriate way. 
 <h4>Working with CSV Data in Processing</h4>
 A CSV file is a text file in which certain characters must be interpreted as delimiters. There are two structures in a CSV file, a record, which is a line of text and a field which is a part of a record. A record is an individual line from the CSV file and a field is a part of the line. To identify fields in a record a special character (a comma) is used.<br>

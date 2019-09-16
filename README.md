@@ -17,15 +17,17 @@ To convert a CSV file to a usable internal format must convert records in the CS
 
 The first step is to read in the CSV file. As the CSV file is a text file and each record is a line of text, the Processing function loadStrings() can be used. Next the required fields from each line need to be parsed and extracted. The fields extracted must be parsed to convert them from text to the required data type (e.g. latitude and longitude should be numbers). Once the required fields are extracted and parsed the values can be used to construct an object to represent the record.
 
-<h3>Design:</h3>
+<h3>Design and Implementation:</h3>
 The earthquake data contains geographic references so a good visualisation would start with mapping the location of the earthquakes onto a map of the world.<br>
 
 Using a geo-graphic (equi-rectangular) projection of the earth, which allows to map longitude and latitude to Cartesian co-ordinates without needing a complex transform function as the map projection already has accounted for the distortion introduced when going from a spherical to a flat surface (i.e. we distort the map not the transform).<br>
+<img src="img/p08.jpg" width="900px" alt="Iterative Implementation">
 
-<h3>Iterative Implementation</h3>
+<h3>Iterative Design and Implementation</h3>
 <h4>Working with JSON Data in Processing</h4>
 From a programming perspective, a better or more readable and maintainable way to parse the data is to refer to the required parts by name and not by position like the first implementation. Therefore, working with data in JSON form allows a key to be associated with a data item. Once the key is known, the data can be accessed regardless of its position. The US Geological Survey also publish the data in JSON format, such as GeoJSON object.
 <img src="img/GeoJSON.jpg" width="900px" alt="GeoJSON object">
+<img src="img/p09.jpg" width="900px" alt="Iterative Implementation">
 
 <h3>Future Development</h3>
 Usually there is a cleaning step, to ensure missing and incorrect data will not cause problems for the application. and this data cleaning step can be an important element of all data visualisation (or analysis) tasks and should not be underestimated. In this prototype the makeSplitFriendly() function addresses some of this data cleaning activity, but in general it is a large part of any data analysis work.

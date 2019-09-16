@@ -7,7 +7,7 @@ The process for developing a visualisation, has seven stages from acquiring data
 <img src="img/seven_stages_ben.jpg" width="600px" alt="Seven stages for data visualisation">
 
 <h3>The Data:</h3>
-The data is from the <a href="https://earthquake.usgs.gov/earthquakes/" target="_blank">US Geological Survey websites</a> about active earthquakes around the world. The data is available in a variety of formats. The example of a partial extract from the CSV formatted version is:
+The data is from the <a href="https://earthquake.usgs.gov/earthquakes/">US Geological Survey websites</a> about active earthquakes around the world. The data is available in a variety of formats. The example of a partial extract from the CSV formatted version is:
 <img src="img/csv_extract.jpg" width="800px" alt="A example of partial extract from the CSV formatted version">
 Then parsing the relevant parts of each record to present the data in a visual form. For example, the parsing process requires to read each line as a String, split this String into pieces and convert each piece to the correct type of value. Then using these values to present the data in an appropriate way. 
 <h4>Working with CSV Data in Processing</h4>
@@ -21,3 +21,5 @@ The first step is to read in the CSV file. As the CSV file is a text file and ea
 The earthquake data contains geographic references so a good visualisation would start with mapping the location of the earthquakes onto a map of the world.<br>
 
 Using a geo-graphic (equi-rectangular) projection of the earth, which allows to map longitude and latitude to Cartesian co-ordinates without needing a complex transform function as the map projection already has accounted for the distortion introduced when going from a spherical to a flat surface (i.e. we distort the map not the transform).<br>
+
+<h3>Future Development</h3>

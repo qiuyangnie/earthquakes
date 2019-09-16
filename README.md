@@ -7,7 +7,7 @@ The process for developing a visualisation, has seven stages from acquiring data
 <img src="img/seven_stages_ben.jpg" width="600px" alt="Seven stages for data visualisation">
 
 <h3>The Data:</h3>
-The data is from the <a href="https://earthquake.usgs.gov/earthquakes/">US Geological Survey websites</a> about active earthquakes around the world. The data is available in a variety of formats. The example of a partial extract from the CSV formatted version is:
+The data is from the <a href="https://earthquake.usgs.gov/earthquakes/" target="blank">US Geological Survey websites</a> about active earthquakes around the world. The data is available in a variety of formats. The example of a partial extract from the CSV formatted version is:
 <img src="img/csv_extract.jpg" width="700px" alt="A example of partial extract from the CSV formatted version">
 Then parsing the relevant parts of each record to present the data in a visual form. For example, the parsing process requires to read each line as a String, split this String into pieces and convert each piece to the correct type of value. Then using these values to present the data in an appropriate way. 
 <h4>Working with CSV Data in Processing</h4>

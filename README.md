@@ -32,7 +32,7 @@ Using a geo-graphic (equi-rectangular) projection of the earth, which allows to 
 ![Implementation](https://github.com/qiuyangnie/earthquakes/blob/master/img/p08.jpg)
 
 ## Iterative Design and Implementation:
-### Working with JSON Data in Processing
+### Working with JSON Data in Processing:
 From a programming perspective, a better or more readable and maintainable way to parse the data is to refer to the required parts by name and not by position like the first implementation. Therefore, working with data in JSON form allows a key to be associated with a data item. Once the key is known, the data can be accessed regardless of its position. The US Geological Survey also publish the data in JSON format, such as GeoJSON object.
 
 ![GeoJSON object](https://github.com/qiuyangnie/earthquakes/blob/master/img/GeoJSON.jpg)

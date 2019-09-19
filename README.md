@@ -9,8 +9,7 @@ The process for developing a visualisation, has seven stages from acquiring data
 ![Seven stages for data visualisation](https://github.com/qiuyangnie/earthquakes/blob/master/img/seven_stages_ben.jpg)
 
 ## The Data:
-The data is from the [US Geological Survey websites][link] about active earthquakes around the world. The data is available in a variety of formats.
-        [link]: https://earthquake.usgs.gov/earthquakes/
+The data is from the [US Geological Survey websites](https://earthquake.usgs.gov/earthquakes/) about active earthquakes around the world. The data is available in a variety of formats.
 
 The example of a partial extract from the CSV formatted version is:
 

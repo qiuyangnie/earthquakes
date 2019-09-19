@@ -6,7 +6,7 @@ The goal of this data visualisation is to use of computer-supported, visual repr
 ## Methods:
 The process for developing a visualisation, has seven stages from acquiring data to interacting with it according to Ben(2008).
 
-![Seven stages for data visualisation](https://github.com/qiuyangnie/earthquakes/blob/master/img/seven_stages_ben.jpg=600px)
+![Seven stages for data visualisation](https://github.com/qiuyangnie/earthquakes/blob/master/img/seven_stages_ben.jpg)
 
 ## The Data:
 The data is from the [US Geological Survey websites][link] about active earthquakes around the world. The data is available in a variety of formats. 
